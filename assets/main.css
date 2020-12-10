@@ -1,0 +1,78 @@
+.home {
+	position: absolute;
+	top: 2%;
+	left: 2%;
+}
+
+.title {
+	position: absolute;
+	left: 28%;
+	top: 3%;
+	font-family: KC Uppercut;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 280%;
+	line-height: 84%;
+	text-align: center;
+	color: #5CCEF4;
+	z-index: 1;
+}
+
+.info {
+	position: absolute;
+	left: 50%;
+	top: 25%;
+	font-family: Upgrade;
+	font-style: normal;
+	font-size: 175%;
+	line-height: 70%;
+	color: #E6E9EA;
+	z-index: 1;
+}
+
+.img {
+	position: absolute;
+	left: 6%;
+	top: 25%;
+}
+
+/* change screen size*/
+
+@media (max-width: 500px) {
+	.home {
+		position: absolute;
+		top: 2%;
+		left: 2%;
+}
+
+	.title {
+		position: absolute;
+		left: 16%;
+		top: -3%;
+		font-family: KC Uppercut;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 230%;
+		line-height: 190%;
+		text-align: center;
+		color: #5CCEF4;
+		z-index: 1;
+}
+
+	.info {
+		position: absolute;
+		left: 13%;
+		top: 25%;
+		font-family: Upgrade;
+		font-style: normal;
+		font-size: 140%;
+		line-height: 70%;
+		color: #E6E9EA;
+		z-index: 1;
+}
+
+	.img {
+		position: absolute;
+		left: 4%;
+		top: 75%;
+}
